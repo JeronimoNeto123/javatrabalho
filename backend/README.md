@@ -1,5 +1,39 @@
 # HoraTime Backend - API REST de Fuso Horário
+## pre requisitos
+Java Development Kit (JDK)
+11
+Necessário para compilar e executar o Backend Java.
 
+Apache Maven
+3.6
+Ferramenta de automação de construção para o projeto Java.
+
+PHP
+7.4
+Necessário para executar o Frontend.
+
+Servidor Web
+Apache, Nginx ou Servidor Embutido do PHP
+Necessário para servir os arquivos do Frontend PHP.
+
+## como executar
+ps: a pasta deve estar na pasta htdos do xamp
+
+1.Abra o terminal ou prompt de comando.
+
+2.Navegue até o diretório raiz do projeto Backend: cd backend.
+
+3.Execute o comando Maven para compilar e iniciar a aplicação Spring Boot:mvn spring-boot:run
+
+para funcionar o front
+
+1.Abra um novo terminal (deixe o terminal do Java rodando).
+
+2.Navegue até o diretório raiz do projeto Frontend: cd frontend
+
+3.Inicie o servidor embutido do PHP na porta 8000: php -S localhost:8000
+
+4.Acesse a aplicação no seu navegador: http://localhost:8000
 ## Descrição
 
 O **HoraTime Backend** é uma API REST desenvolvida em **Java com Spring Boot** que fornece informações de hora atual em diferentes localidades do mundo. A API permite que clientes (como o frontend PHP) consultem a hora atual de uma cidade ou país específico.
