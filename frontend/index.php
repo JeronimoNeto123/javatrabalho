@@ -20,7 +20,7 @@ $apiHealthy = $client->isApiHealthy();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo APP_DESCRIPTION; ?>">
-    <meta name="author" content="Manus AI">
+    <meta name="author" content="">
     <title><?php echo APP_NAME; ?> - Sistema de Fuso Horário</title>
     
     <!-- CSS -->
@@ -111,7 +111,7 @@ $apiHealthy = $client->isApiHealthy();
 
         <!-- Footer -->
         <div class="footer">
-            <p><?php echo APP_NAME; ?> v<?php echo APP_VERSION; ?> | Desenvolvido por <strong>Manus AI</strong></p>
+            <p><?php echo APP_NAME; ?> v<?php echo APP_VERSION; ?> | Desenvolvido por <strong>Jeronimo Neto</strong></p>
             <p style="margin-top: 10px; font-size: 0.85em;">
                 <a href="#" onclick="alert('Versão: ' + '<?php echo APP_VERSION; ?>'); return false;">Sobre</a> | 
                 <a href="https://github.com" target="_blank">GitHub</a> | 
