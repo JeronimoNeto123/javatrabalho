@@ -40,7 +40,7 @@ horatime-frontend/
 ### Opção 1: Usando o Servidor PHP Embutido
 
 ```bash
-cd horatime-frontend
+cd frontend
 php -S localhost:8000
 ```
 
